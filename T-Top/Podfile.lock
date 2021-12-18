@@ -1,0 +1,28 @@
+PODS:
+  - Arrow (5.1.1)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - Arrow
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+
+SPEC REPOS:
+  trunk:
+    - Arrow
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Arrow: d6a6fa7eb3fdb3e3aebc7532bc3412e30dabf953
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: 4850876389b9a1e986ab473c1440b96f675d4dd7
+
+COCOAPODS: 1.10.2

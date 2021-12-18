@@ -13,6 +13,23 @@
 		132A8D80276E0B220003B9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D7E276E0B220003B9EC /* Main.storyboard */; };
 		132A8D82276E0B240003B9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D81276E0B240003B9EC /* Assets.xcassets */; };
 		132A8D85276E0B240003B9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D83276E0B240003B9EC /* LaunchScreen.storyboard */; };
+		132A8D95276E0DC80003B9EC /* IRANSansMobile_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D8F276E0DC70003B9EC /* IRANSansMobile_Bold.ttf */; };
+		132A8D96276E0DC80003B9EC /* IRANSansMobile_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D90276E0DC70003B9EC /* IRANSansMobile_Medium.ttf */; };
+		132A8D97276E0DC80003B9EC /* IRANSansMobile_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D91276E0DC70003B9EC /* IRANSansMobile_UltraLight.ttf */; };
+		132A8D98276E0DC80003B9EC /* IRANSansMobile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D92276E0DC70003B9EC /* IRANSansMobile.ttf */; };
+		132A8D99276E0DC80003B9EC /* IRANSansMobile_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D93276E0DC70003B9EC /* IRANSansMobile_Black.ttf */; };
+		132A8D9A276E0DC80003B9EC /* IRANSansMobile_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D94276E0DC70003B9EC /* IRANSansMobile_Light.ttf */; };
+		132A8D9E276E0E610003B9EC /* BoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132A8D9D276E0E610003B9EC /* BoxTableViewCell.xib */; };
+		132A8DA1276E0F3A0003B9EC /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A8DA0276E0F3A0003B9EC /* DropDownView.swift */; };
+		132A8DA3276E0F560003B9EC /* BoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A8DA2276E0F560003B9EC /* BoxTableViewCell.swift */; };
+		132A8DA5276E10130003B9EC /* DropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132A8DA4276E10130003B9EC /* DropDownView.xib */; };
+		132A8DA8276E16A60003B9EC /* BoxItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132A8DA7276E16A60003B9EC /* BoxItemTableViewCell.xib */; };
+		132A8DAA276E18AF0003B9EC /* BoxItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A8DA9276E18AF0003B9EC /* BoxItemTableViewCell.swift */; };
+		132A8DAD276E21BD0003B9EC /* JBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A8DAC276E21BD0003B9EC /* JBox.swift */; };
+		132A8DB0276E252D0003B9EC /* Boxes.json in Resources */ = {isa = PBXBuildFile; fileRef = 132A8DAF276E252D0003B9EC /* Boxes.json */; };
+		132A8DB4276E27020003B9EC /* JBoxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A8DB3276E27020003B9EC /* JBoxItem.swift */; };
+		132A8DB6276E2D880003B9EC /* JBoxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132A8DB5276E2D880003B9EC /* JBoxes.swift */; };
+		B812D5436C700F85327358E5 /* Pods_T_Top.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1A953AE3F07CDE0E85AE36 /* Pods_T_Top.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,25 @@
 		132A8D81276E0B240003B9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		132A8D84276E0B240003B9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		132A8D86276E0B240003B9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132A8D8F276E0DC70003B9EC /* IRANSansMobile_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Bold.ttf; sourceTree = "<group>"; };
+		132A8D90276E0DC70003B9EC /* IRANSansMobile_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Medium.ttf; sourceTree = "<group>"; };
+		132A8D91276E0DC70003B9EC /* IRANSansMobile_UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_UltraLight.ttf; sourceTree = "<group>"; };
+		132A8D92276E0DC70003B9EC /* IRANSansMobile.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile.ttf; sourceTree = "<group>"; };
+		132A8D93276E0DC70003B9EC /* IRANSansMobile_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Black.ttf; sourceTree = "<group>"; };
+		132A8D94276E0DC70003B9EC /* IRANSansMobile_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Light.ttf; sourceTree = "<group>"; };
+		132A8D9D276E0E610003B9EC /* BoxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoxTableViewCell.xib; sourceTree = "<group>"; };
+		132A8DA0276E0F3A0003B9EC /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		132A8DA2276E0F560003B9EC /* BoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxTableViewCell.swift; sourceTree = "<group>"; };
+		132A8DA4276E10130003B9EC /* DropDownView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownView.xib; sourceTree = "<group>"; };
+		132A8DA7276E16A60003B9EC /* BoxItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoxItemTableViewCell.xib; sourceTree = "<group>"; };
+		132A8DA9276E18AF0003B9EC /* BoxItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxItemTableViewCell.swift; sourceTree = "<group>"; };
+		132A8DAC276E21BD0003B9EC /* JBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBox.swift; sourceTree = "<group>"; };
+		132A8DAF276E252D0003B9EC /* Boxes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boxes.json; sourceTree = "<group>"; };
+		132A8DB3276E27020003B9EC /* JBoxItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBoxItem.swift; sourceTree = "<group>"; };
+		132A8DB5276E2D880003B9EC /* JBoxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBoxes.swift; sourceTree = "<group>"; };
+		B4882AC5AF1839AC7DF95E8A /* Pods-T-Top.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-Top.release.xcconfig"; path = "Target Support Files/Pods-T-Top/Pods-T-Top.release.xcconfig"; sourceTree = "<group>"; };
+		BD1A953AE3F07CDE0E85AE36 /* Pods_T_Top.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_Top.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E036E4D397FE53E02E6D3FA4 /* Pods-T-Top.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-Top.debug.xcconfig"; path = "Target Support Files/Pods-T-Top/Pods-T-Top.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B812D5436C700F85327358E5 /* Pods_T_Top.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +78,12 @@
 			isa = PBXGroup;
 			children = (
 				132A8D77276E0B220003B9EC /* T-Top */,
+				132A8DAB276E21940003B9EC /* Model */,
+				132A8D9B276E0E330003B9EC /* Views */,
 				132A8D76276E0B220003B9EC /* Products */,
+				132A8D8C276E0D380003B9EC /* Resources */,
+				DCDAE357FDA9D1B401C5625A /* Pods */,
+				D9DBC28806F15D4713E887FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +109,100 @@
 			path = "T-Top";
 			sourceTree = "<group>";
 		};
+		132A8D8C276E0D380003B9EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				132A8DAE276E251E0003B9EC /* BoxesJson */,
+				132A8D8D276E0D430003B9EC /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		132A8D8D276E0D430003B9EC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				132A8D93276E0DC70003B9EC /* IRANSansMobile_Black.ttf */,
+				132A8D8F276E0DC70003B9EC /* IRANSansMobile_Bold.ttf */,
+				132A8D94276E0DC70003B9EC /* IRANSansMobile_Light.ttf */,
+				132A8D90276E0DC70003B9EC /* IRANSansMobile_Medium.ttf */,
+				132A8D91276E0DC70003B9EC /* IRANSansMobile_UltraLight.ttf */,
+				132A8D92276E0DC70003B9EC /* IRANSansMobile.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		132A8D9B276E0E330003B9EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				132A8D9F276E0F170003B9EC /* DropDown */,
+				132A8D9C276E0E410003B9EC /* Box */,
+				132A8DA6276E16390003B9EC /* BoxItem */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		132A8D9C276E0E410003B9EC /* Box */ = {
+			isa = PBXGroup;
+			children = (
+				132A8D9D276E0E610003B9EC /* BoxTableViewCell.xib */,
+				132A8DA2276E0F560003B9EC /* BoxTableViewCell.swift */,
+			);
+			path = Box;
+			sourceTree = "<group>";
+		};
+		132A8D9F276E0F170003B9EC /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				132A8DA0276E0F3A0003B9EC /* DropDownView.swift */,
+				132A8DA4276E10130003B9EC /* DropDownView.xib */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		132A8DA6276E16390003B9EC /* BoxItem */ = {
+			isa = PBXGroup;
+			children = (
+				132A8DA7276E16A60003B9EC /* BoxItemTableViewCell.xib */,
+				132A8DA9276E18AF0003B9EC /* BoxItemTableViewCell.swift */,
+			);
+			path = BoxItem;
+			sourceTree = "<group>";
+		};
+		132A8DAB276E21940003B9EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				132A8DAC276E21BD0003B9EC /* JBox.swift */,
+				132A8DB3276E27020003B9EC /* JBoxItem.swift */,
+				132A8DB5276E2D880003B9EC /* JBoxes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		132A8DAE276E251E0003B9EC /* BoxesJson */ = {
+			isa = PBXGroup;
+			children = (
+				132A8DAF276E252D0003B9EC /* Boxes.json */,
+			);
+			path = BoxesJson;
+			sourceTree = "<group>";
+		};
+		D9DBC28806F15D4713E887FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1A953AE3F07CDE0E85AE36 /* Pods_T_Top.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCDAE357FDA9D1B401C5625A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E036E4D397FE53E02E6D3FA4 /* Pods-T-Top.debug.xcconfig */,
+				B4882AC5AF1839AC7DF95E8A /* Pods-T-Top.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 132A8D89276E0B240003B9EC /* Build configuration list for PBXNativeTarget "T-Top" */;
 			buildPhases = (
+				4F4E65D71177B1E6BCB8DC91 /* [CP] Check Pods Manifest.lock */,
 				132A8D71276E0B220003B9EC /* Sources */,
 				132A8D72276E0B220003B9EC /* Frameworks */,
 				132A8D73276E0B220003B9EC /* Resources */,
+				0E18052779852C403DB36A51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +263,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132A8DA8276E16A60003B9EC /* BoxItemTableViewCell.xib in Resources */,
+				132A8DA5276E10130003B9EC /* DropDownView.xib in Resources */,
 				132A8D85276E0B240003B9EC /* LaunchScreen.storyboard in Resources */,
+				132A8D98276E0DC80003B9EC /* IRANSansMobile.ttf in Resources */,
+				132A8DB0276E252D0003B9EC /* Boxes.json in Resources */,
 				132A8D82276E0B240003B9EC /* Assets.xcassets in Resources */,
+				132A8D95276E0DC80003B9EC /* IRANSansMobile_Bold.ttf in Resources */,
+				132A8D97276E0DC80003B9EC /* IRANSansMobile_UltraLight.ttf in Resources */,
+				132A8D96276E0DC80003B9EC /* IRANSansMobile_Medium.ttf in Resources */,
+				132A8D9A276E0DC80003B9EC /* IRANSansMobile_Light.ttf in Resources */,
 				132A8D80276E0B220003B9EC /* Main.storyboard in Resources */,
+				132A8D99276E0DC80003B9EC /* IRANSansMobile_Black.ttf in Resources */,
+				132A8D9E276E0E610003B9EC /* BoxTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E18052779852C403DB36A51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T-Top/Pods-T-Top-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T-Top/Pods-T-Top-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T-Top/Pods-T-Top-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F4E65D71177B1E6BCB8DC91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T-Top-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		132A8D71276E0B220003B9EC /* Sources */ = {
@@ -139,7 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				132A8D7D276E0B220003B9EC /* ViewController.swift in Sources */,
+				132A8DB6276E2D880003B9EC /* JBoxes.swift in Sources */,
+				132A8DA1276E0F3A0003B9EC /* DropDownView.swift in Sources */,
+				132A8DAD276E21BD0003B9EC /* JBox.swift in Sources */,
+				132A8DB4276E27020003B9EC /* JBoxItem.swift in Sources */,
 				132A8D79276E0B220003B9EC /* AppDelegate.swift in Sources */,
+				132A8DA3276E0F560003B9EC /* BoxTableViewCell.swift in Sources */,
+				132A8DAA276E18AF0003B9EC /* BoxItemTableViewCell.swift in Sources */,
 				132A8D7B276E0B220003B9EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +480,7 @@
 		};
 		132A8D8A276E0B240003B9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E036E4D397FE53E02E6D3FA4 /* Pods-T-Top.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +509,7 @@
 		};
 		132A8D8B276E0B240003B9EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4882AC5AF1839AC7DF95E8A /* Pods-T-Top.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

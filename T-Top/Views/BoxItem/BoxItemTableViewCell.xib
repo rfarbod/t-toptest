@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANSansMobile.ttf">
+            <string>IRANSansMobile</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Urc-d1-L62" customClass="BoxItemTableViewCell" customModule="T_Top" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wsa-Qo-ryY">
+                    <rect key="frame" x="5" y="5" width="404" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y8r-RG-6cY" customClass="DropDownView" customModule="T_Top" customModuleProvider="target">
+                            <rect key="frame" x="239" y="0.0" width="150" height="50"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="QEO-dE-1oK"/>
+                                <constraint firstAttribute="width" constant="150" id="tj8-Vh-qZX"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="dropDownTitle" value="دراپ داون ۱"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVv-Ie-M9b" customClass="DesignableView" customModule="Spring">
+                            <rect key="frame" x="15" y="0.0" width="150" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فیلد متنی ۱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXD-pX-xja">
+                                    <rect key="frame" x="82.5" y="16" width="62.5" height="18"/>
+                                    <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Q8e-9x-Mx0"/>
+                                <constraint firstAttribute="width" constant="150" id="UMB-Ds-xrT"/>
+                                <constraint firstAttribute="trailing" secondItem="JXD-pX-xja" secondAttribute="trailing" constant="5" id="gf9-Wq-LX5"/>
+                                <constraint firstItem="JXD-pX-xja" firstAttribute="centerY" secondItem="eVv-Ie-M9b" secondAttribute="centerY" id="zQE-oQ-bBL"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="y8r-RG-6cY" secondAttribute="trailing" constant="15" id="3Sp-uP-VrS"/>
+                        <constraint firstItem="eVv-Ie-M9b" firstAttribute="centerY" secondItem="wsa-Qo-ryY" secondAttribute="centerY" id="64r-5n-Vtp"/>
+                        <constraint firstItem="eVv-Ie-M9b" firstAttribute="leading" secondItem="wsa-Qo-ryY" secondAttribute="leading" constant="15" id="Oi2-wZ-XAU"/>
+                        <constraint firstItem="y8r-RG-6cY" firstAttribute="centerY" secondItem="wsa-Qo-ryY" secondAttribute="centerY" id="bAY-XP-axV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Ygg-WQ-2ga"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="wsa-Qo-ryY" firstAttribute="leading" secondItem="Ygg-WQ-2ga" secondAttribute="leading" constant="5" id="XNO-rR-hVC"/>
+                <constraint firstAttribute="bottom" secondItem="wsa-Qo-ryY" secondAttribute="bottom" constant="5" id="dNd-rt-0YQ"/>
+                <constraint firstAttribute="trailing" secondItem="wsa-Qo-ryY" secondAttribute="trailing" constant="5" id="ibP-RK-JQF"/>
+                <constraint firstItem="wsa-Qo-ryY" firstAttribute="top" secondItem="Urc-d1-L62" secondAttribute="top" constant="5" id="u5W-8W-AIK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dropDownView" destination="y8r-RG-6cY" id="Syl-N8-wj9"/>
+                <outlet property="titleLabel" destination="JXD-pX-xja" id="FZr-Dl-Y2G"/>
+            </connections>
+            <point key="canvasLocation" x="211.59420289855075" y="123.88392857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
