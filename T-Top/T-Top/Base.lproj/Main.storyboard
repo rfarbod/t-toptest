@@ -13,10 +13,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="T_Top" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="T_Top" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,9 +30,23 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV9-Lx-Pz0">
+                                        <rect key="frame" x="10" y="35" width="75" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="EOQ-rB-PQb"/>
+                                            <constraint firstAttribute="height" constant="50" id="FVM-VN-mr4"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="ویرایش"/>
+                                        <connections>
+                                            <action selector="didPressEdit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crT-CJ-uuD"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
+                                    <constraint firstItem="bV9-Lx-Pz0" firstAttribute="leading" secondItem="BSv-od-jUA" secondAttribute="leading" constant="10" id="VmW-OW-CqU"/>
+                                    <constraint firstItem="bV9-Lx-Pz0" firstAttribute="centerY" secondItem="onY-0f-stt" secondAttribute="centerY" id="c4Z-yF-OwU"/>
                                     <constraint firstAttribute="height" constant="100" id="hML-KR-EyL"/>
                                     <constraint firstItem="onY-0f-stt" firstAttribute="centerY" secondItem="BSv-od-jUA" secondAttribute="centerY" constant="10" id="omX-8J-3KE"/>
                                     <constraint firstItem="onY-0f-stt" firstAttribute="centerX" secondItem="BSv-od-jUA" secondAttribute="centerX" id="tmA-Zg-0ve"/>
@@ -55,10 +69,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cvm-VU-Ean" secondAttribute="trailing" id="yLv-Ve-9ar"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="editButton" destination="bV9-Lx-Pz0" id="bms-KG-l2o"/>
+                        <outlet property="tableView" destination="cvm-VU-Ean" id="3mm-2c-0sR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="84"/>
+            <point key="canvasLocation" x="-900.00000000000011" y="81.696428571428569"/>
         </scene>
     </scenes>
     <resources>

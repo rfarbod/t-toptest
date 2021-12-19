@@ -13,4 +13,5 @@ struct JBoxes: ArrowParsable {
     mutating func deserialize(_ json: JSON) {
         boxes <-- json["boxes"]
     }
+    
 }

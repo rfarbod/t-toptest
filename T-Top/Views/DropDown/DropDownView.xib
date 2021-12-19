@@ -15,12 +15,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DropDownView" customModule="T_Top" customModuleProvider="target">
             <connections>
-                <outlet property="dropDownView" destination="WEm-Zb-6Xw" id="KTv-LI-SDj"/>
-                <outlet property="titleLabel" destination="Pw0-MD-Cmu" id="hif-rJ-jzK"/>
+                <outlet property="dropDownView" destination="WEm-Zb-6Xw" id="mbm-vb-cvk"/>
+                <outlet property="titleLabel" destination="Pw0-MD-Cmu" id="AoH-6w-UeS"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="WEm-Zb-6Xw" customClass="DropDownView" customModule="T_Top" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="WEm-Zb-6Xw">
             <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -45,6 +45,8 @@
                     <constraints>
                         <constraint firstItem="Pw0-MD-Cmu" firstAttribute="centerY" secondItem="zLf-Bi-3tz" secondAttribute="centerY" id="0jT-jU-lvY"/>
                         <constraint firstItem="KPI-ii-WTs" firstAttribute="centerY" secondItem="zLf-Bi-3tz" secondAttribute="centerY" id="3bd-C6-BIH"/>
+                        <constraint firstAttribute="width" constant="150" id="PSw-j9-qi9"/>
+                        <constraint firstAttribute="height" constant="50" id="U2v-4C-Js5"/>
                         <constraint firstAttribute="trailing" secondItem="Pw0-MD-Cmu" secondAttribute="trailing" constant="10" id="Wv6-S7-MXk"/>
                         <constraint firstItem="KPI-ii-WTs" firstAttribute="leading" secondItem="zLf-Bi-3tz" secondAttribute="leading" constant="10" id="hli-0j-Bgs"/>
                     </constraints>
@@ -70,7 +72,7 @@
                 <constraint firstAttribute="trailing" secondItem="zLf-Bi-3tz" secondAttribute="trailing" id="Q2P-0k-n0T"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="212" y="45"/>
+            <point key="canvasLocation" x="183" y="38"/>
         </view>
     </objects>
     <resources>
